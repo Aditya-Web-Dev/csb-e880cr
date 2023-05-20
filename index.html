@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link href="style.css" rel="stylesheet" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Steam Redesign</title>
+  </head>
+  <body>
+    <div id="app">
+      <nav>
+        <div class="navbar-brand">
+          <img
+            src="https://store.akamai.steamstatic.com/public/shared/images/responsive/header_logo.png"
+            alt="steam logo"
+          />
+        </div>
+
+        <div class="hamburger" onclick="toggleNav()">
+          <img
+            src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Hamburger_icon.svg/2048px-Hamburger_icon.svg.png"
+            alt="click to open links"
+          />
+        </div>
+      </nav>
+      <ul class="nav-link-list">
+        <li><a href="#">Your Store</a></li>
+        <li><a href="#">Category</a></li>
+        <li><a href="#">Discover Queue</a></li>
+        <li><a href="#">Wishlist</a></li>
+        <li><a href="#">Points Shop</a></li>
+        <li><a href="#">News & Noteworthy</a></li>
+        <li><a href="#">Labs</a></li>
+        <hr />
+        <li><a href="#">Community</a></li>
+        <li><a href="#">Discussions</a></li>
+        <li><a href="#">Workshop</a></li>
+        <li><a href="#">Market</a></li>
+        <li><a href="#">Broadcasts</a></li>
+        <li><a href="#">Support</a></li>
+        <li><input type="text" placeholder="search" /><button>Go</button></li>
+        <hr />
+        <li><a href="#" style="color: #cbd5e1;">Change Language</a></li>
+      </ul>
+
+      <!-- body -->
+      <section class="offer"></section>
+
+      <!-- featured -->
+      <section class="featured">
+        <h3>Featured & Recommended</h3>
+
+        <div class="cardFeature">
+          <div class="card">
+            <div class="card-text">
+              <h4>EA Sports &trade; FIFA 2023</h4>
+              <p>₹1,049 <span class="not">₹3,499</span></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-text">
+              <h4>EA Sports &trade; FIFA 2023</h4>
+              <p>₹1,049 <span class="not">₹3,499</span></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-text">
+              <h4>EA Sports &trade; FIFA 2023</h4>
+              <p>₹1,049 <span class="not">₹3,499</span></p>
+            </div>
+          </div>
+          <div class="card">
+            <div class="card-text">
+              <h4>EA Sports &trade; FIFA 2023</h4>
+              <p>₹1,049 <span class="not">₹3,499</span></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="category">
+        <h3>Search by category</h3>
+        <div class="cateSlide">
+          <div class="cardCategory">
+            <img
+              src="https://store.steampowered.com/categories/homepageimage/category/racing?cc=us&l=english"
+              alt="racing"
+            />
+            <div class="cardCateText">
+              <h3>Racing</h3>
+            </div>
+          </div>
+
+          <div class="cardCategory">
+            <img
+              src="https://store.steampowered.com/categories/homepageimage/freetoplay?cc=us&l=english"
+              alt="free to play"
+            />
+            <div class="cardCateText">
+              <h3>Free to play</h3>
+            </div>
+          </div>
+
+          <div class="cardCategory">
+            <img
+              src="https://store.steampowered.com/categories/homepageimage/category/sports?cc=us&l=english"
+              alt="sports"
+            />
+            <div class="cardCateText">
+              <h3>All sports</h3>
+            </div>
+          </div>
+
+          <div class="cardCategory">
+            <img
+              src="https://store.steampowered.com/categories/homepageimage/category/science_fiction?cc=us&l=english"
+              alt="Science"
+            />
+            <div class="cardCateText">
+              <h3>Science and Fiction</h3>
+            </div>
+          </div>
+
+          <div class="cardCategory">
+            <img
+              src="https://store.steampowered.com/categories/homepageimage/category/rogue_like_rogue_lite?cc=us&l=english"
+              alt="rouge like"
+            />
+            <div class="cardCateText">
+              <h3>Rouge Like</h3>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="someGames">
+        <h3>Offeres and Updated</h3>
+        <div class="cardSome">
+          <img
+            src="https://shared.cloudflare.steamstatic.com/store_item_assets/mm/8773608059670270097/0/357d025b94ca8a833aeb555861de55d28469fb12.jpg?t=1683047773"
+            alt="destiny"
+          />
+        </div>
+
+        <hr />
+
+        <div class="cardSome">
+          <img
+            src="https://shared.cloudflare.steamstatic.com/store_item_assets/mm/2486209784652034157/0/e2a853b4aa8e130f239dc97ade888b917a6e1a2d.jpg?t=1684364299"
+            alt="cities sykline"
+          />
+        </div>
+
+        <hr />
+
+        <div class="cardSome">
+          <img
+            src="https://shared.cloudflare.steamstatic.com/store_item_assets/mm/5959567785342806080/0/699807be4a9e3c953d62cb86385bbb0a9fdb6d16.jpg?t=1684353082"
+            alt="metro"
+          />
+        </div>
+
+        <hr />
+
+        <div class="cardSome">
+          <img
+            src="https://shared.cloudflare.steamstatic.com/store_item_assets/mm/8960085290797357296/0/f71c916d0d0856c7209aa5b538ae20313b01b2d5.jpg?t=1684360263"
+            alt="outlast"
+          />
+        </div>
+      </section>
+
+      <section id="cta">
+        <h3>Looking for Recommendation</h3>
+        <p>Sign in to view recommendations</p>
+        <button>Sign In</button>
+      </section>
+      <!-- body ends here -->
+    </div>
+
+    <script>
+      function toggleNav() {
+        if (document.querySelector(".nav-link-list").style.top == "") {
+          document.querySelector(".nav-link-list").style.top = "0";
+          document.querySelector(".nav-link-list").style.paddingRight = "10px";
+        } else {
+          document.querySelector(".nav-link-list").style.top = "";
+          document.querySelector(".nav-link-list").style.paddingRight = "0px";
+        }
+      }
+    </script>
+  </body>
+</html>
